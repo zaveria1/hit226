@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+      
+ <input type="submit" value="register">  
+ 
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+
+    <div class="inner">
+
+      <h1 class="title">Registration Form</h1>
+      <div class="logo">
+        <img src="mqlogo.png" alt="CDU_Logo">
+      </div>
+      <div class="registration_c">
+        <form>
+          <h2>Let's create your account</h2>
+          <div class="item">
+            <label>First Name:</label>
+            <input type="text" name="fname" autocomplete="fname" placeholder="First Name" required="required">
+          </div>
+          <div class="item">
+            <label>Last Name:</label>
+            <input type="text" name="lname" autocomplete="lname" placeholder="Last Name" required="required">
+          </div>
+          <div class="item">
+            <label>Gender:</label>
+            <div class="radio">
+              <input type="radio" name="gender"/>Male
+              <input type="radio" name="gender"/>Female
+              <input type="radio" name="gender"/>Prefer not to disclose
+            </div>
+
+           
+
+            <div class="item">
+              <label>Address:</label>
+              <input type="address" name="address" autocomplete="address" placeholder="Addreess Line 1" required="required">
+            </div>
+            <div class="select">
+              <Label>State:</label>
+              <select>
+                <option></option>
+                <option>NSW</option>
+                <option>QLD</option>
+                <option>SA</option>
+                <option>TAS</option>
+                <option>VIC</option>
+                <option>WA</option>
+                <option>ACT</option>
+                <option>NT</option>
+              </select>
+            </div>
+        <div class="item">
+              <label>Email:</label>
+              <input type="email" name="email" autocomplete="email"  placeholder="Email Address" required="required">
+      
+              <div class="select">
+            <label>Telephone Number:</label>
+              <select>
+                <option></option>
+                <option>+880</option>
+                <option>+04</option>
+                <option>+61</option>
+              </select>
+              <input type="tnumber" name="tnumber" autocomplete="tnumber" placeholder="Telephone Number" required="required">
+        </div>
+        <div class="item">
+            <label>Date of Birth:</label>
+            <input type="date" id="textdate"/>
+        </div>
+        <button class="item_button">
+            Sign Up
+        </button>
+     
+        </div>
+     </div>
+   </div>
+ </div>
+</body>
+</html>
